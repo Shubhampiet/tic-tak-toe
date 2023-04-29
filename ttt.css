@@ -1,0 +1,55 @@
+/* @import url('https://fonts.cdnfonts.com/css/baloo-bhai'); */
+ 
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ #home{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 70px;
+    width: 28rem;
+    height: 28rem;
+    background-color: black;
+    border: 10px solid cyan;
+  
+}
+
+.box{
+    width: 9rem;
+    height: 9rem;
+    display: flex;
+    background-color: yellow;
+}
+
+.box:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+    
+
+.textBox{
+    width: 9rem;
+    height: 9rem;
+    font-size: 125px;
+    text-align: center;
+    text-shadow: 10px 2px 6px red;
+    color: white;
+    /* font-family: 'Baloo Bhai', sans-serif; */
+    font-weight: bold;
+    /* background-color: beige; */
+    font-family: 'Playball', cursive;
+
+}
+
+.line{
+    height:0%;
+    width:50%;
+    border: 2px solid white;
+    position: absolute;
+    margin-left: 25%; 
+}
+
